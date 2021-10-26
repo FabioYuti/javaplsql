@@ -1,5 +1,6 @@
-public class Questao7 {
-    public static void main(String[] args){
+public class Main
+{
+	public static void main(String[] args){
 		
 		String valor = "TESTE_RADEK";
 		int i=0;
