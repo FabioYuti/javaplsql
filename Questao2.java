@@ -1,15 +1,15 @@
 public class Main
 {
 	public static void main(String[] args){
-		
-		String valor = "TESTE_RADEK";
-		int i=0;
-
-
-        for(char c : valor.toCharArray()){
-                i++;
-        }
-		
-		System.out.println(i);
+        for(int i=1; i<=100; i++){
+			if ((i % 3 == 0) && (i % 5 == 0))
+				System.out.println("FooBaa");
+			else if (i % 3 == 0)
+				System.out.println("Foo");
+			else if (i % 5 == 0)
+				System.out.println("Baa");
+			else
+				System.out.println(i);
+		}
     }
 }
