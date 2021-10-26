@@ -1,0 +1,1 @@
+Na mesma sessão o resultado será 1. Em outra sessão será 0 (zer0).
